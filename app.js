@@ -39,7 +39,6 @@ var firebase_route = require('./routes/firebase_route/firebase_route');
 //var route_google_face_reconize = require('./routes/route_google_face_reconize');
 var cors = require('cors')
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
