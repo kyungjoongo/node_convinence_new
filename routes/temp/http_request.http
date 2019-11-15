@@ -1,0 +1,31 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+
+
+
+POST  https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AAAATB-hygw:APA91bHXO9p1e3WQWxzeKKXlKDOLKmK92jv04bkjF9C-yeMQKNt20liZhQ8VhRQkXNk0Anov0YxxAsxD1xVWkAF-cq44iTO4TD0IpCnOUd5XW6BNK87I9CuWlhxFeHxilMQfZtySHcsm
+
+{}
+
+###
+POST https://fcm.googleapis.com/fcm/send
+Content-Type:application/json
+Authorization:AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to":"/topics/all",
+  "data": {
+    "notification": {"title": "Price drop", "body": "2% off all books"},
+    "topic": "/topics/all",
+  }
+}
+
+###

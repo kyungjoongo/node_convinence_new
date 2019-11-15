@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rich-labs-app",
+  "private_key_id": "a4836e0ab26924a026c8b23cc77d40aa5ad43b04",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+hHwfbVIgRvVd\n4kSsUoJiaUCVbHgtbvBbxtUjU61FNeoijLCDLOiXTMYFrnVVcJ1l8bmowLDZOB48\nAVokeGxY40nfF3VthQaKxeXELh5Guvx2z3K9CpKymXVeLoKw+y/LTUghpl6cf5d9\n4qudEgFIbUEDHqCaZhFQ/KG/IGCBl8Tum0WmKd4kACmoS/iUcZ2M1ZpTH08gZoMM\nnGYLfBmnlt9YhFTpUyZYmtyYPN+xzrYv+NenvRvqYj5fogXIxftUUEs0PWh73MTX\nf6JwcxwdphYU7kUvaQXBsl8YZ3OZTVbm8Az6GGaDkkpUrxKRpXU5+822IA+5uKB7\nMCqwpV61AgMBAAECggEAAREe3NIw5otfLmJo/goMPt7WBMAxwBdh8zGe2e7LBpsx\nr3XYOzPSLZ65cSiz8YGK8Bo1bvN9SgodaTqctZ2TBcBoFn68IpvfGIHZMosLklvT\ntBqfSt23Spa/aIKcKr+NWfcZ005qMzgnsgXF7kA+j5hFB+5w+cxehnSTt01IHRGp\nAepHcV/oEKDmVcl8q28AV7xmujN6wp+9+5KgxoFRPEk4KOHCuHfctu+e/0lpSiPe\nYmNVPAon2TvBJZAAcC+mnL+QtP/kZ0345+DAbjlX2pG8OZHHRzEPD/mgTaJoR9E8\n7PO1HzjV9sbRYUdUatqfAtYbxxJsLDwmydsNXkR4IQKBgQD+89yM3Xxo28wIPnVo\nMU7pKYMO1FKpK6L44TNLZVyPl0OP2jeBoz2xzZF3XGXc84cDrwiHGfJ78xP1wuTQ\nJsHV2WHz3/RM2g1QjLdyizSlK1WOAqNZwzgUnGcB33/rzb88AITkVUlcLpCtxg+5\n589UkIaz/oCtmQ/9fOoln1dY7QKBgQC/TNsST8IT8yCf41XliyASCumW7vXUnp1y\n7kxDA4enozDR3Tjfq4Tvc8iR8OrWacQxRz1O5hueTK76RAwIKUdAZ/kvLM4O8F8A\nmoqWc7OZL/xFl4WetpgAd9J+hdYmreV6VOMV2/HJuwAbcYck6q52JCR0RcheLmIr\nApHldHhL6QKBgQDYD+p1Jq7sXnlG80ekiUUKrDd5Nc7ntydiK9fAqaILvnFvU8t+\nfc0nBcOlmBRrb6aYJJnhhMfO622a9RPcozvZ82PjvYPYLWLjRJ2i4P44i8TxmKK+\ny4aXUQSqvbI3MCJEw1vb9bs59+x8mEFzl1RJokHGAIUkmXbHqDj2sVbg8QKBgQCl\n2YnsXD2UciqMs9lagr2xJsjRVCbIySMT60kuqDbJvY+rwrF2KQu9VZJEBKx0a4nu\ndybN6m1zVmQ1ER2lTbQ6QGom3h9fkEGtEk6olXLVkmaSJwVvTjqF3Vwe2QWKzySu\nZD3kS6VaEcfMAyb5eIT8Y+U+8Oj/zhLJ2xaF6e4JUQKBgDbc2Z66JnknamqJIOwe\nlDAtK1GyLrByyPrcDniI4l+wLD84+4yiCGS37LOT6gXzc0KUYdJb/FN1VLTP9nfv\nWA/uFXfaF3RuuRuBpIqeUnLJi88p0UoPTmUTQ2gfffrb8G3okagmZGMcRyMciHh7\nlxZPM0I/uWszYN6JKMJV6tCt\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-tma55@rich-labs-app.iam.gserviceaccount.com",
+  "client_id": "105642607003736876246",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tma55%40rich-labs-app.iam.gserviceaccount.com"
+}

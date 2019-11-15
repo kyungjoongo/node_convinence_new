@@ -1,0 +1,12 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+
+http://www.drapt.com/e_sale/index.htm?page_name=saleinfo&menu_key=8&sub_menu=0&si=%BC%AD%BF%EF%C6%AF%BA%B0%BD%C3&gu=%B0%AD%B5%BF%B1%B8&dong=&sear_date=&sigong=&gubun=&viewline=30
+
+###

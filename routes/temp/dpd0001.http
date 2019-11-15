@@ -1,0 +1,47 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+
+POST http://localhost:5000/board2
+Content-Type: application/json
+
+{
+  "title": "aaaaaaaaaaaaaa",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77",
+}
+
+###
+
+
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {id: -1}
+}
+###
+
+
+DELETE http://localhost:5000/board2?id=2b4ed2e98614699a
+Accept: application/json
+
+###
+
+
+PUT http://localhost:5000/board2?id=2b4ed2e98614699a
+{
+  "title": "고경준 천재님이십닏lskdfsdf",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77"
+}
+
+###
+
+

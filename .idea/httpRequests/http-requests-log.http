@@ -1,0 +1,491 @@
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {id: -1}
+}
+
+<> 2019-11-04T075117.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {title: -1}
+}
+
+<> 2019-11-04T075031.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {title: 1}
+}
+
+<> 2019-11-04T075021.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {title: 1}
+}
+
+<> 2019-11-04T075000.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {title: -1}
+}
+
+<> 2019-11-04T074951.200.json
+
+###
+
+POST http://localhost:5000/board2
+Content-Type: application/json
+
+{
+  "title": "aaaaaaaaaaaaaa",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77"
+}
+
+<> 2019-11-04T074948.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+{
+   $sort: {title: -1}
+}
+
+<> 2019-11-04T074927.200.json
+
+###
+
+PUT http://localhost:5000/board2?id=2b4ed2e98614699a
+{:
+  "title": "고경준 천재님이십닏lskdfsdf",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77"
+}:
+
+###
+
+PUT http://localhost:5000/board2?id=2b4ed2e98614699a
+Accept: application/json
+
+{
+  "title": "고경준 천재님이십닏lskdfsdf",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77"
+}
+
+<> 2019-11-04T074713.400.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+<> 2019-11-04T074644.200.json
+
+###
+
+DELETE http://localhost:5000/board2?id=2b4ed2e98614699a
+Accept: application/json
+
+<> 2019-11-04T074637.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+<> 2019-11-04T074307.200.json
+
+###
+
+POST http://localhost:5000/board2
+Content-Type: application/json
+
+{
+  "title": "고경준 천재님이십닏lskdfsdf",
+  "content": "kyungjoon is genius77777",
+  "name" : "denise77"
+}
+
+<> 2019-11-04T074257.200.json
+
+###
+
+GET http://localhost:5000/board2?name=kyungjoongo
+Accept: application/json
+
+<> 2019-11-04T074156.200.json
+
+###
+
+GET http://localhost:5000/board2?id=b03acceb2756e95c
+Accept: application/json
+
+<> 2019-11-04T074143.200.json
+
+###
+
+GET http://localhost:5000/board2
+Accept: application/json
+
+<> 2019-11-04T074115.200.json
+
+###
+
+POST http://localhost:5000/board2
+Content-Type: application/json
+
+{
+  "title": "kyungjoon",
+  "content": "kyungjoon is genius",
+  "name" : "kyungojon"
+}
+
+<> 2019-11-04T073956.200.json
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to":"/topics/all",
+  "data": {
+    "notification": {"title": "Price drop", "body": "2% off all books"},
+    "topic": "/topics/all",
+  }
+}
+
+<> 2019-10-15T054013.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to":"/topics/all",
+  "data": {
+    "notification": {"title": "Price drop", "body": "2% off all books"},
+    "topic": ",/topics/all",
+  }
+}
+
+<> 2019-10-15T054007.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to":"/topics/all",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053224.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "topic": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053155.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "topic": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053153.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053131.401.html
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: key=AIzaSyDKvfQ8QNDxwtBGs5eRECVfUygcG0hFSSE
+
+{
+  "to": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053127.200.json
+
+###
+
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: key=AAAATB-hygw:APA91bHXO9p1e3WQWxzeKKXlKDOLKmK92jv04bkjF9C-yeMQKNt20liZhQ8VhRQkXNk0Anov0YxxAsxD1xVWkAF-cq44iTO4TD0IpCnOUd5XW6BNK87I9CuWlhxFeHxilMQfZtySHcsm
+
+{
+  "to": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053107.200.json
+
+###
+
+GET https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: key=AAAATB-hygw:APA91bHXO9p1e3WQWxzeKKXlKDOLKmK92jv04bkjF9C-yeMQKNt20liZhQ8VhRQkXNk0Anov0YxxAsxD1xVWkAF-cq44iTO4TD0IpCnOUd5XW6BNK87I9CuWlhxFeHxilMQfZtySHcsm
+
+{
+  "to": "android",
+  "data": {
+    "message": "This is a Firebase Cloud Messaging Topic Message!",
+  }
+}
+
+<> 2019-10-15T053046.400.html
+
+###
+
+GET https://www.download-mp3-youtube.com/api/?api_key=MzE0NzQxMDY5&format=mp3&video_id=nfs8NYg7yQM
+
+<> 2018-06-08T074517.200.html
+
+###
+
+POST http://svc.xmobile.kr/service/radio/hit_radio.php?radio_no=1
+
+<> 2018-05-31T080212.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Host: www.jobkorea.co.kr
+Connection: keep-alive
+Content-Length: 130
+Accept: text/html, */*; q=0.01
+Origin: http://www.jobkorea.co.kr
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://www.jobkorea.co.kr/recruit/joblist?menucode=local&local=B000
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Host: www.jobkorea.co.kr
+Connection: keep-alive
+Content-Length: 130
+Accept: text/html, */*; q=0.01
+Origin: http://www.jobkorea.co.kr
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://www.jobkorea.co.kr/recruit/joblist?menucode=local&local=B000
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Accept: text/html, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+Connection: keep-alive
+Content-Length: 130
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+X-Requested-With: XMLHttpRequest
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Accept: text/html, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+Connection: keep-alive
+Content-Length: 130
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+Host: www.jobkorea.co.kr
+Origin: http://www.jobkorea.co.kr
+Referer: http://www.jobkorea.co.kr/recruit/joblist?menucode=local&local=B000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Accept: text/html, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+Connection: keep-alive
+Content-Length: 130
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+Host: www.jobkorea.co.kr
+Origin: http://www.jobkorea.co.kr
+Referer: http://www.jobkorea.co.kr/recruit/joblist?menucode=local&local=B000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+
+{}
+
+<> 2018-05-31T114249.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_Product/condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+<> 2018-05-31T114212.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_Product?condition[local]=B000&condition[duty]=1000100&condition[menucode]=
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_Product?condition[local]=B000&condition[duty]=1000100&condition[menucode]=
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+{}
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: DirectStat=ON; CookieNo=344226317; RMID=d25aed615a5289b0; PCID=15153586506699455662733; mainContents=1; _ga=GA1.3.1709547775.1515358652; cto_lwid=7e7bf100-a449-4b08-b952-10a892a3befe; GnbCategoryInfoLayerState=N; WMONID=sJGAKbsQPVC; searchConditionArrary=[{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-03-29T14:14:30.3170052+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180329141430"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:43.7706581+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062543"},{"Save_No":0,"Area_Code":"B000,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:35.3465857+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062535"},{"Save_No":0,"Area_Code":"I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:33.0065661+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062533"},{"Save_No":0,"Area_Code":"B150,B180,I000","Career_Code":"5","Edu_Level_Code":"5","Part_Code":"","Employ_Type_Code":"","Co_Type_Code":"","GI_Reg_Period_Code":"","Search_Inc_Word":"","Search_Except_Word":"","Reg_Dt":"2018-01-08T06:25:06.0963372+09:00","Edit_Dt":"0001-01-01T00:00:00","Area_Ctgr_Code":null,"Part_Ctgr_Code":null,"cookieStamp":"20180108062506"}]; ASP.NET_SessionId=fgmb41gjcbc2nsgjgmk1p0mp; jobkorea=Site_Oem_Code=C1; _kys=QEkRBDqvvj+PYA_.jobkorea.co.kr; _gid=GA1.3.416509148.1527733483; JobBizPopupUser=twoWeek; JK%5FUser=M%5FID=695f7bbbd0bf9dda836fff6a7a7255a87f20eb33119305b4a7f1ccc93afc41e8c1aad6924e8180854ce2bb4280e306d0&Mem%5FName=f8ac65f9e2632eae670d3383e32e8cc6ab68b94888c11443d4ad3f5fd8049864f3b6df8fd00bdb50218a930f4eea0e17&Mem%5FName2=916c52dddaae03edc3c015303fbea379daac7a64972295121811e5fa9299da35af1d70edb25ea8f8366ded70c8593f87&LoginStat=73a3f8ba03d1c8854140b5daf4636553d1d70b522eec935229f52b5f89241354&LoginTime=2018-05-31+11%3a27%3a00; ECHO_SESSION=2761527733631906; ASPSESSIONIDQQCSBAAT=NDDDBKJDDPAANMKOJDKHFLFG; Main_Top_Banner_Seq=1; __lfcc=1; pcTop100=1%2C10016%2CIT%B7%uC778%uD130%uB137%2C0%2C%uC804%uCCB4; MainRcntlyData=%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%3d%42%30%30%30%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%b0%e6%b1%e2%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%c8%a8%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c%3c%6c%69%3e%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%68%6f%6d%65%22%3e%c3%a4%bf%eb%c1%a4%ba%b8%3c%2f%61%3e%20%26%67%74%3b%20%3c%61%20%68%72%65%66%3d%22%2f%72%65%63%72%75%69%74%2f%6a%6f%62%6c%69%73%74%3f%6d%65%6e%75%63%6f%64%65%3d%6c%6f%63%61%6c%26%6c%6f%63%61%6c%6f%72%64%65%72%3d%31%22%20%63%6c%61%73%73%3d%22%63%61%74%65%22%3e%c1%f6%bf%aa%ba%b0%3c%2f%61%3e%3c%2f%6c%69%3e%7c%24%24%7c; _gat_trackerOne2=1; RSCondition=[{"CookieIndex":"20180531113341","Cndt_No":0,"M_Id":"sgtjoon","Jobtype_Code":"1000100","Area_Code":"B000","Reg_Dt":"2018-05-31T11:33:41.4856655+09:00","IsKeep":true},{"CookieIndex":"20180108061555","Cndt_No":0,"M_Id":"sgtjoon","Area_Code":"B150,B160,B312,B310,B311","Reg_Dt":"2018-01-08T06:15:55.5364312+09:00","IsKeep":true}]; _kyp=QEkQBpnNc0kfQ0LWTYDQHzrvDCF3yYJbC2dJVFmQEGIEGoGnKWx2gWkuhglsidFCL0bRfxGHBq4iboUcIj0_.jobkorea.co.kr
+
+{}
+
+<> 2018-05-31T114025.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+{}
+
+<> 2018-05-31T113956.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+Content-Type: application/json
+
+{}
+
+<> 2018-05-31T113938.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+
+<> 2018-05-31T113844.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+
+<> 2018-05-31T113827.200.html
+
+###
+
+POST http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+
+<> 2018-05-31T113822.200.html
+
+###
+
+GET http://www.jobkorea.co.kr/Recruit/Home/_GI_List/isDefault=true&condition%5Blocal%5D=B000&condition%5Bduty%5D=1000100&condition%5Bmenucode%5D=&page=1&direct=0&order=20&pagesize=40
+
+<> 2018-05-31T113734.200.html
+
+###
+
+GET http://www.drapt.com/e_sale/index.htm?page_name=saleinfo&menu_key=8&sub_menu=0&si=����Ư����&gu=������&dong=&sear_date=&sigong=&gubun=&viewline=30
+
+<> 2018-04-03T102335.200.html
+
+###
+

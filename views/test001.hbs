@@ -1,0 +1,156 @@
+<style lang="scss" scoped>
+    .md-content {
+        width: 200px;
+        height: 200px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<html
+        xmlns:v-on="http://www.w3.org/1999/xhtml">{{title}}
+<p>Welcome to {{title}}</p>
+
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBJ5grchLpTqAzod7NoAlf7YFwHdS2LIeU",
+        authDomain: "rich-labs-app.firebaseapp.com",
+        databaseURL: "https://rich-labs-app.firebaseio.com",
+        projectId: "rich-labs-app",
+        storageBucket: "rich-labs-app.appspot.com",
+        messagingSenderId: "410276199004"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--material-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+<link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
+<link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+<script src="https://unpkg.com/vue-material@beta"></script>
+<div>
+
+
+
+</div>
+
+
+<div id="example-1">
+
+    <md-dialog :md-active.sync="showDialog">
+        <md-dialog-title>Add User</md-dialog-title>
+        <md-content style="margin: 25px;">
+            <form method="post" action="/insert001">
+                name:<br>
+                <input type='text' name='name' class='user-input'><br>
+                age:<br>
+                <input type='text' name='age' class='user-input'><br>
+                email:<br>
+                <input type='text' name='email' class='user-input'><br>
+                <!--<button type='submit' id="add-user-btn">add user</button>-->
+                <md-button type="submit" class="md-primary" >submit</md-button>
+            </form>
+        </md-content>
+
+        <md-dialog-actions>
+            <md-button class="md-primary" @click="showDialog = false">Close</md-button>
+            <md-button class="md-primary" @click="showDialog = false">Save</md-button>
+        </md-dialog-actions>
+    </md-dialog>
+
+    <md-list v-for="item in items" style="margin: 0px;">
+        <md-list-item>
+            \{{ item.name }}
+            \{{ item.age }}
+            \{{ item._id }}
+            <md-button class="md-primary" v-on:click="modify(item)">modify</md-button>
+            <md-button class="md-accent" v-on:click="_delete(item)">delete</md-button>
+        </md-list-item>
+
+    </md-list>
+
+    <md-button class="md-accent" @click="showDialog = true">showDialog</md-button>
+</div>
+</html>
+<script>
+
+
+    var config = {
+        apiKey: "AIzaSyBJ5grchLpTqAzod7NoAlf7YFwHdS2LIeU",
+        authDomain: "rich-labs-app.firebaseapp.com",
+        databaseURL: "https://rich-labs-app.firebaseio.com",
+        projectId: "rich-labs-app",
+        storageBucket: "",
+        messagingSenderId: "410276199004"
+    };
+    var firebase = firebase.initializeApp(config);
+    const dbRef = firebase.database().ref();
+    Vue.use(VueMaterial.default)
+
+    axios.get('/getList')
+            .then(function (response) {
+
+                console.log('live--->sucess');
+                console.log(response.data);
+
+                let __results = response.data;
+
+                var example1 = new Vue({
+                    el: '#example-1',
+                    data: {
+                        items: __results,
+                        showDialog: false,
+                    },
+                    methods: {
+                        _delete: function (item) {
+                            //alert(item.id)
+                            const usersRef = dbRef.child('users/' + item.id);
+                            usersRef.remove((result) => {
+                                if (result == null) {
+                                    location.href = './test001'
+                                }
+                            });
+                        }, modify: function (item) {
+                            //alert(item.id)
+                            const usersRef = dbRef.child('users/' + item.id);
+
+                            let itemOne = {
+                                'age': 123213,
+                                'name': '수정',
+                            }
+
+                            usersRef.update(itemOne, (err) => {
+                                if (err == null)
+                                    location.href = './test001'
+                            })
+
+
+                            console.log('modify--->', usersRef);
+                        }
+
+                    }
+                })
+
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+            .then(function () {
+                // always executed
+            });
+
+
+</script>
+
+

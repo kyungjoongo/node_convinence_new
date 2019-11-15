@@ -1,0 +1,75 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js"></script>
+<script>
+    /*var firebase = require('firebase');
+    var firestore = require('firebase/firestore')*/
+
+    var config = {
+        apiKey: "AIzaSyAZMDKdP3GqDkFu6nkC8hAdmhol8ZfXVgg",
+        authDomain: "proverb-best.firebaseapp.com",
+        databaseURL: "https://proverb-best.firebaseio.com",
+        projectId: "proverb-best",
+        storageBucket: "proverb-best.appspot.com",
+        messagingSenderId: "31566108418"
+    };
+    firebase.initializeApp(config);
+
+
+    $(document).ready(function () {
+
+        $("#btnModify").click(function () {
+
+            let title = $('#title').val();
+            let id = $('#id').val();
+            firebase.firestore().collection('test001').doc(id).set({
+                title: title,
+                date: new Date(),
+                id: 23423984,
+            }).then((docRef) => {
+                location.href = './proverb_write'
+            }).catch((error) => {
+                console.error("Error adding document: ", error);
+            });
+        });
+    });
+</script>
+
+
+<form>
+    <!--<input type="text" name="name" id="name">
+    <br/>
+    <br/>-->
+    <input type="" name="id" id="id" value={{id}} style="width: 250px;" >
+    <textarea cols="50" rows="4 " name="title" id="title">{{title}} </textarea>
+    <br/>
+    <button type="button" id="btnModify" class="btn btn-primary">수정</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326948211212",
+    "firebase_url": "https://chungwade-minwon.firebaseio.com",
+    "project_id": "chungwade-minwon",
+    "storage_bucket": "chungwade-minwon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326948211212:android:d5f5667f135b75c0",
+        "android_client_info": {
+          "package_name": "jessica_labs.chungwon_first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326948211212-rm0fa34ii323nj7u33k65lijib6mdofd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-8LyTV4x1NvhhPgdeNMCllBGZT49hgIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326948211212-rm0fa34ii323nj7u33k65lijib6mdofd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
