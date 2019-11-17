@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d356e-36a7-43af-8453-31b4f6125dbe" name="Default" comment="fsdfaasdfasdfasdfasdfaasdasdㅁㄴㅇㅁㄴㅇasdsadsd234asdfasdfasdfasdf234234324ㄴㅇㄹㄴㅇㄹ">
-      <change beforePath="$PROJECT_DIR$/file_delete_schedulaer.js" beforeDir="false" afterPath="$PROJECT_DIR$/file_delete_schedulaer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_delete_right_now.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,26 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
+        <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/file_delete_right_now.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -156,6 +157,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/route_face_reconize.js" />
         <option value="$PROJECT_DIR$/file_delete_schedulaer.js" />
+        <option value="$PROJECT_DIR$/file_delete_right_now.js" />
       </list>
     </option>
   </component>
@@ -195,6 +197,17 @@
               <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,16 +233,16 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes/new_route" />
+      <recent name="$PROJECT_DIR$/routes/temp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/routes/temp" />
       <recent name="$PROJECT_DIR$/mosquitto_example" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes/new_route" />
-      <recent name="$PROJECT_DIR$/routes/temp" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1079,7 +1092,7 @@
       <workItem from="1573885114479" duration="734000" />
       <workItem from="1573945207602" duration="4467000" />
       <workItem from="1573974187441" duration="2494000" />
-      <workItem from="1574010018429" duration="1349000" />
+      <workItem from="1574010018429" duration="1622000" />
     </task>
     <task id="LOCAL-00095" summary="fsdfaasdfasdfasdfasdfa">
       <created>1528375537109</created>
@@ -1436,7 +1449,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78041000" />
+    <option name="totallyTimeSpent" value="78314000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1451,7 +1464,7 @@
     <frame x="0" y="23" width="2560" height="1340" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27362987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27362987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1461,12 +1474,12 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34448978" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34367347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39282805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3355102" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3355102" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.37610185" />
@@ -1763,13 +1776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/route_face_reconize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2822">
@@ -1829,10 +1835,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_delete_right_now.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
