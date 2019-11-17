@@ -164,7 +164,7 @@ router.post('/face_upload2', function (req, res, next) {
     // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
     let sampleFile = req.files.sampleFile;
     let name = req.files.sampleFile.name;
-    let postFixRandNo = Math.floor((Math.random() * 500) + 1);
+    let postFixRandNo = Math.floor((Math.random() * 1111111111111) + 1);
 
     //let baseUrl = 'e:/upload/'
     let baseUrl = './images/'
@@ -221,7 +221,7 @@ router.post('/face_upload_new', function (req, last_response, next) {
     // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
     let sampleFile = req.files.sampleFile;
     let name = req.files.sampleFile.name;
-    let postFixRandNo = Math.floor((Math.random() * 500000) + 1);
+    let postFixRandNo = Math.floor((Math.random() * 111111111111) + 1);
 
     let baseUrl = './public/images/' //@todo:remote
     let fixedName = 'temp_image' + postFixRandNo + '.jpg'
@@ -246,76 +246,79 @@ router.post('/face_upload_new', function (req, last_response, next) {
         //var hostname ='http://kyungjoon77.ipdisk.co.kr:4000' //@todo://localhost
         var api_url = 'http://www.pictriev.com/facedbj.php?findface&image=' + hostname + '/images/' + fixedName
 
-
         //var api_url = 'http://www.pictriev.com/facedbj.php?findface&image=http://kyungjoon77.iptime.org:4000/images/temp_image10.jpg'
 
-        request.get({
-            url: api_url,
-        }, function (error, response, body) {
-            if (!error && response.statusCode == 200) {
+        try{
+            request.get({
+                url: api_url,
+            }, function (error, response, body) {
+                if (!error && response.statusCode == 200) {
 
-                console.log(JSON.parse(body))
+                    console.log(JSON.parse(body))
 
-                let __result = JSON.parse(body);
+                    let __result = JSON.parse(body);
 
-                console.log(__result.imageid)
+                    console.log(__result.imageid)
 
-                let imageId = __result.imageid;
+                    let imageId = __result.imageid;
 
-                console.log('imageId===>' + imageId);
+                    console.log('imageId===>' + imageId);
 
-                let requestUir = 'http://www.pictriev.com/facedbj.php?whoissim&imageid=' + imageId.trim() + '&faceid=0&lang=ko'
+                    let requestUir = 'http://www.pictriev.com/facedbj.php?whoissim&imageid=' + imageId.trim() + '&faceid=0&lang=ko'
 
-                request.get({
-                    url: requestUir,
-                }, function (error, response, body) {
-                    if (!error && response.statusCode == 200) {
+                    request.get({
+                        url: requestUir,
+                    }, function (error, response, body) {
+                        if (!error && response.statusCode == 200) {
 
-                        console.log(JSON.parse(body))
+                            console.log(JSON.parse(body))
 
-                        let result2 = JSON.parse(body);
-                        let fianlResult = []
-                        if (result2.result != 'FAIL') {
+                            let result2 = JSON.parse(body);
+                            let fianlResult = []
+                            if (result2.result != 'FAIL') {
 
-                            let celubList = result2.attrs
-                            let age = result2.age;
-                            let gender = result2.gender;
+                                let celubList = result2.attrs
+                                let age = result2.age;
+                                let gender = result2.gender;
 
-                            celubList.forEach(item => {
-                                fianlResult.push({
-                                    celub: item[2],
-                                    score: Math.ceil(item[1] * 100),
-                                    img: 'http://www.pictriev.com/imgj.php?facex=' + item[3],
-                                    age: result2.age,
-                                    gender: result2.gender[0],
-                                    genderPercentage: Math.ceil(result2.gender[1] * 100),
+                                celubList.forEach(item => {
+                                    fianlResult.push({
+                                        celub: item[2],
+                                        score: Math.ceil(item[1] * 100),
+                                        img: 'http://www.pictriev.com/imgj.php?facex=' + item[3],
+                                        age: result2.age,
+                                        gender: result2.gender[0],
+                                        genderPercentage: Math.ceil(result2.gender[1] * 100),
+                                    })
                                 })
-                            })
 
-                            console.log('live--->', fianlResult);
+                                console.log('live--->', fianlResult);
 
-                            last_response.json(fianlResult)
+                                last_response.json(fianlResult)
+                            } else {
+                                fianlResult.push({
+                                    result: 'fail'
+                                })
+                                last_response.json(fianlResult)
+                            }
+
+
                         } else {
-                            fianlResult.push({
-                                result: 'fail'
-                            })
-                            last_response.json(fianlResult)
+                            last_response.json(response)
                         }
+                    }).on('error', function (err) {
+                        console.error(err)
+                    }).pipe(fs.createWriteStream('error!!!!!!'))
 
 
-                    } else {
-                        last_response.json(response)
-                    }
-                }).on('error', function (err) {
-                    console.error(err)
-                }).pipe(fs.createWriteStream('error!!!!!!'))
+                } else {
 
-
-            } else {
-
-                console.log('sdlkfsldkflsdkf', error)
-            }
-        });
+                    throw new Error(error)
+                }
+            });
+        }catch (e) {
+            last_response.json(e.message)
+        }
 
 
     });
@@ -328,7 +331,7 @@ router.post('/face_upload_new_en', function (req, last_response, next) {
     // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
     let sampleFile = req.files.sampleFile;
     let name = req.files.sampleFile.name;
-    let postFixRandNo = Math.floor((Math.random() * 500) + 1);
+    let postFixRandNo = Math.floor((Math.random() * 11111111111111) + 1);
 
     //let baseUrl = 'e:/upload/'
     let baseUrl = './public/images/'
@@ -356,69 +359,76 @@ router.post('/face_upload_new_en', function (req, last_response, next) {
 
         //var api_url = 'http://www.pictriev.com/facedbj.php?findface&image=http://kyungjoon77.iptime.org:4000/images/temp_image10.jpg'
 
-        request.get({
-            url: api_url,
-        }, function (error, response, body) {
-            if (!error && response.statusCode == 200) {
-                console.log(JSON.parse(body))
+        try{
+            request.get({
+                url: api_url,
+            }, function (error, response, body) {
+                if (!error && response.statusCode == 200) {
+                    console.log(JSON.parse(body))
 
-                let __result = JSON.parse(body);
+                    let __result = JSON.parse(body);
 
-                console.log(__result.imageid)
+                    console.log(__result.imageid)
 
-                let imageId = __result.imageid;
+                    let imageId = __result.imageid;
 
-                let requestUir = 'http://www.pictriev.com/facedbj.php?whoissim&imageid=' + imageId.trim() + '&faceid=0&lang=en'
+                    let requestUir = 'http://www.pictriev.com/facedbj.php?whoissim&imageid=' + imageId.trim() + '&faceid=0&lang=en'
 
-                request.get({
-                    url: requestUir,
-                }, function (error, response, body) {
-                    if (!error && response.statusCode == 200) {
+                    request.get({
+                        url: requestUir,
+                    }, function (error, response, body) {
+                        if (!error && response.statusCode == 200) {
 
-                        console.log(JSON.parse(body))
+                            console.log(JSON.parse(body))
 
-                        let result2 = JSON.parse(body);
-                        let fianlResult = []
-                        if (result2.result != 'FAIL') {
+                            let result2 = JSON.parse(body);
+                            let fianlResult = []
+                            if (result2.result != 'FAIL') {
 
-                            let celubList = result2.attrs
-                            let age = result2.age;
-                            let gender = result2.gender;
+                                let celubList = result2.attrs
+                                let age = result2.age;
+                                let gender = result2.gender;
 
 
-                            celubList.forEach(item => {
-                                fianlResult.push({
-                                    celub: item[2],
-                                    score: Math.ceil(item[1] * 100),
-                                    img: 'http://www.pictriev.com/imgj.php?facex=' + item[3],
-                                    age: result2.age,
-                                    gender: result2.gender[0],
-                                    genderPercentage: Math.ceil(result2.gender[1] * 100),
+                                celubList.forEach(item => {
+                                    fianlResult.push({
+                                        celub: item[2],
+                                        score: Math.ceil(item[1] * 100),
+                                        img: 'http://www.pictriev.com/imgj.php?facex=' + item[3],
+                                        age: result2.age,
+                                        gender: result2.gender[0],
+                                        genderPercentage: Math.ceil(result2.gender[1] * 100),
+                                    })
                                 })
-                            })
 
-                            console.log('live--->', fianlResult);
+                                console.log('live--->', fianlResult);
 
-                            last_response.json(fianlResult)
+                                last_response.json(fianlResult)
+                            } else {
+                                fianlResult.push({
+                                    result: 'fail'
+                                })
+                                last_response.json(fianlResult)
+                            }
+
+
                         } else {
-                            fianlResult.push({
-                                result: 'fail'
-                            })
-                            last_response.json(fianlResult)
+                            //last_response.json(response)
+
+                            throw new Error(error)
                         }
+                    });
 
 
-                    } else {
-                        last_response.json(response)
-                    }
-                });
+                } else {
 
+                    console.log('sdlkfsldkflsdkf', error)
+                }
+            });
+        }catch (e) {
+            last_response.json(e.message)
+        }
 
-            } else {
-
-                console.log('sdlkfsldkflsdkf', error)
-            }
-        });
 
 
     });
