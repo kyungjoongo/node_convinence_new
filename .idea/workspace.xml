@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d356e-36a7-43af-8453-31b4f6125dbe" name="Default" comment="fsdfaasdfasdfasdfasdfaasdasdㅁㄴㅇㅁㄴㅇasdsadsd234asdfasdfasdfasdf234234324ㄴㅇㄹㄴㅇㄹ">
-      <change afterPath="$PROJECT_DIR$/file_delete_right_now.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_delete_right_now.js" beforeDir="false" afterPath="$PROJECT_DIR$/file_delete_right_now.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_delete_schedulaer.js" beforeDir="false" afterPath="$PROJECT_DIR$/file_delete_schedulaer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image1715941797631.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image2006940774879.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image240295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image241.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image296.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image337.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image401.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image409567.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image431.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image490536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image5773343345185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image6725228465267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image8982236886591.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image92237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/temp_image97.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,29 +72,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="476">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/route_face_reconize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="212" column="3" selection-start-line="212" selection-start-column="3" selection-end-line="212" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file_delete_right_now.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state>
+              <caret selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -126,6 +182,7 @@
       <find>face_upload_new_en</find>
       <find>face_upload_new</find>
       <find>face_upload2</find>
+      <find>face_upload</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -156,8 +213,8 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/route_face_reconize.js" />
-        <option value="$PROJECT_DIR$/file_delete_schedulaer.js" />
         <option value="$PROJECT_DIR$/file_delete_right_now.js" />
+        <option value="$PROJECT_DIR$/file_delete_schedulaer.js" />
       </list>
     </option>
   </component>
@@ -167,11 +224,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="31" />
-    <option name="width" value="2550" />
-    <option name="height" value="1330" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2560" />
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1Ocztcy3O60iadScPkHOhO2f7le" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -184,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,21 +253,11 @@
               <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -739,7 +785,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.____fcm_example2323_working_ok_for_celme.js">
+  <component name="RunManager" selected="Node.js.file_delete_right_now.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -840,7 +886,7 @@
     <configuration name="____fcm_example2323_working_ok.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="____fcm_example2323_working_ok.js" working-dir="$PROJECT_DIR$/routes/temp">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="file_delete_right_now.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="file_delete_right_now.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="file_delete_schedulaer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="file_delete_schedulaer.js" working-dir="$PROJECT_DIR$">
@@ -878,11 +924,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.file_delete_right_now.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok_for_celme.js" />
         <item itemvalue="Node.js.file_delete_schedulaer.js" />
         <item itemvalue="Node.js.node_schduler00000002_thats_right_스케쥴러.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok.js" />
-        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -1092,7 +1138,9 @@
       <workItem from="1573885114479" duration="734000" />
       <workItem from="1573945207602" duration="4467000" />
       <workItem from="1573974187441" duration="2494000" />
-      <workItem from="1574010018429" duration="1622000" />
+      <workItem from="1574010018429" duration="1750000" />
+      <workItem from="1574023384736" duration="300000" />
+      <workItem from="1574023752759" duration="87000" />
     </task>
     <task id="LOCAL-00095" summary="fsdfaasdfasdfasdfasdfa">
       <created>1528375537109</created>
@@ -1449,7 +1497,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78314000" />
+    <option name="totallyTimeSpent" value="78829000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1461,10 +1509,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1340" extended-state="6" />
+    <frame x="2560" y="23" width="2560" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27362987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1474,12 +1522,12 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34367347" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39282805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.343318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39183673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3355102" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33486944" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.37610185" />
@@ -1776,17 +1824,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/route_face_reconize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1835,24 +1883,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+    <entry file="file://$PROJECT_DIR$/routes/route_face_reconize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="246">
+          <caret line="212" column="3" selection-start-line="212" selection-start-column="3" selection-end-line="212" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file_delete_right_now.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state>
+          <caret selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
