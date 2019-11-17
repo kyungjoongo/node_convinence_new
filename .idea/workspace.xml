@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d356e-36a7-43af-8453-31b4f6125dbe" name="Default" comment="fsdfaasdfasdfasdfasdfaasdasdㅁㄴㅇㅁㄴㅇasdsadsd234asdfasdfasdfasdf234234324ㄴㅇㄹㄴㅇㄹ">
-      <change afterPath="$PROJECT_DIR$/file_delete_schedulaer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_delete_schedulaer.js" beforeDir="false" afterPath="$PROJECT_DIR$/file_delete_schedulaer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -727,7 +726,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.file_delete_schedulaer.js">
+  <component name="RunManager" selected="Node.js.____fcm_example2323_working_ok_for_celme.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -866,8 +865,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.file_delete_schedulaer.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok_for_celme.js" />
+        <item itemvalue="Node.js.file_delete_schedulaer.js" />
         <item itemvalue="Node.js.node_schduler00000002_thats_right_스케쥴러.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok.js" />
         <item itemvalue="Node.js.app.js" />
@@ -1080,7 +1079,7 @@
       <workItem from="1573885114479" duration="734000" />
       <workItem from="1573945207602" duration="4467000" />
       <workItem from="1573974187441" duration="2494000" />
-      <workItem from="1574010018429" duration="964000" />
+      <workItem from="1574010018429" duration="1349000" />
     </task>
     <task id="LOCAL-00095" summary="fsdfaasdfasdfasdfasdfa">
       <created>1528375537109</created>
@@ -1437,7 +1436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77656000" />
+    <option name="totallyTimeSpent" value="78041000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1449,7 +1448,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1342" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1340" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27362987" />
@@ -1462,12 +1461,12 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34474328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34448978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39282805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.64792174" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3355102" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.37610185" />
@@ -1767,7 +1766,7 @@
     <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1832,8 +1831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file_delete_schedulaer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
