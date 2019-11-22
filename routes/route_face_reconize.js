@@ -324,6 +324,98 @@ router.post('/face_upload_new', function (req, last_response, next) {
     });
 });
 
+
+router.post('/face_engine_c', function (req, last_response, next) {
+    if (!req.files)
+        return res.status(400).send('No files were uploaded.');
+
+    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+    let sampleFile = req.files.sampleFile;
+    let name = req.files.sampleFile.name;
+    let postFixRandNo = Math.floor((Math.random() * 111111111111) + 1);
+
+    let baseUrl = './public/images/' //@todo:remote
+    let fixedName = 'temp_image' + postFixRandNo + '.jpg'
+
+    console.log('fixedName--->', fixedName);
+
+    let fullImagePath = baseUrl + fixedName
+
+    console.log(fixedName);
+
+
+    // Use the mv() method to place the file somewhere on your server
+    sampleFile.mv(fullImagePath, function (err) {
+        if (err) {
+            return res.status(500).send(err);
+        }
+
+        //////////###########
+        var request = require('request');
+        //var hostname = 'http://gazua.kyungjoongo.shop:4000' //@todo://remote
+
+        var hostname ='http://kyungjoon77.ipdisk.co.kr:4000' //@todo://localhost
+        var api_url = 'https://starbyface.com/Home/LooksLike?url=' + hostname + '/images/' + fixedName
+
+        //var api_url = 'http://www.pictriev.com/facedbj.php?findface&image=http://kyungjoon77.iptime.org:4000/images/temp_image10.jpg'
+
+        var axios = require('axios');
+
+
+        axios({
+            method: 'post',
+            url: api_url,
+            timeout: 15*1000,
+        }).then(response => {
+            //console.log('######## arrays--->', response.data);
+
+            let body = response.data;
+
+            // console.log("sldkflsdkfldskf===>", body);
+
+            var $ = cheerio.load(body);
+
+            //$('#candidates').html()
+
+            let results=[];
+            $('.candidate').each(function () {
+
+                let image = $(this).find('.img-thumbnail').attr('src')
+                let percentage = $(this).find('.progress-bar').attr('similarity');
+                //candidate-main"
+                let name = $(this).find('.candidate-main > p ').text();
+
+                console.log("sldkflsdkfldskf===>", image)
+                console.log("prgress===>", percentage)
+
+                results.push({
+                    image: image,
+                    percentage: percentage,
+                    name: name,
+                })
+            });
+
+            console.log("results===>", results);
+
+            last_response.json(results)
+
+
+        }).catch(err => {
+            //ToastAndroid.show('Sorry. fetch error :)', ToastAndroid.LONG);
+
+            console.log("sldkflsdkfldskf===>", err);
+        });
+
+
+
+
+
+    });
+});
+
+
 router.post('/face_upload_new_en', function (req, last_response, next) {
     if (!req.files)
         return res.status(400).send('No files were uploaded.');
