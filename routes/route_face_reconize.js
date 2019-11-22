@@ -354,9 +354,9 @@ router.post('/face_engine_c', function (req, last_response, next) {
 
         //////////###########
         var request = require('request');
-        //var hostname = 'http://gazua.kyungjoongo.shop:4000' //@todo://remote
+        var hostname = 'http://gazua.kyungjoongo.shop:4000' //@todo://remote
 
-        var hostname ='http://kyungjoon77.ipdisk.co.kr:4000' //@todo://localhost
+        //var hostname ='http://kyungjoon77.ipdisk.co.kr:4000' //@todo://localhost
         var api_url = 'https://starbyface.com/Home/LooksLike?url=' + hostname + '/images/' + fixedName
 
         //var api_url = 'http://www.pictriev.com/facedbj.php?findface&image=http://kyungjoon77.iptime.org:4000/images/temp_image10.jpg'
