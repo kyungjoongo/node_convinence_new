@@ -387,6 +387,8 @@ router.post('/face_engine_c', function (req, last_response, next) {
                 //candidate-main"
                 let name = $(this).find('.candidate-main > p ').text();
 
+                let className = $(this).parent().attr('id')
+
                 console.log("sldkflsdkfldskf===>", image)
                 console.log("prgress===>", percentage)
 
@@ -394,6 +396,7 @@ router.post('/face_engine_c', function (req, last_response, next) {
                     image: image,
                     percentage: percentage,
                     name: name,
+                    className: className,
                 })
             });
 

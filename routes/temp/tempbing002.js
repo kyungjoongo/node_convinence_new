@@ -3,7 +3,7 @@ var cheerio = require("cheerio");
 
 axios({
     method: 'post',
-    url: 'https://starbyface.com/Home/LooksLike?url=http://gazua.kyungjoongo.shop:4000/images/temp_image6120745327201.jpg',
+    url: 'https://starbyface.com/Home/LooksLike?url=http://gazua.kyungjoongo.shop:4000/images/temp_image16190588281.jpg',
     timeout: 15 * 1000,
 }).then(response => {
     //console.log('######## arrays--->', response.data);
@@ -24,6 +24,8 @@ axios({
         //candidate-main"
         let name = $(this).find('.candidate-main > p ').text();
 
+        let className = $(this).parent().attr('id')
+
         console.log("sldkflsdkfldskf===>", image)
         console.log("prgress===>", percentage)
 
@@ -31,6 +33,7 @@ axios({
             image: image,
             percentage: percentage,
             name: name,
+            className: className,
         })
     });
 
