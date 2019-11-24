@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "face-celub",
+  "private_key_id": "a0d79e6f10383a39ca790049e0e92964a179de8e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4/Is4iSqGFW7s\nPd+gcEXn2PSkSW0tZNkgL97/uVtriLtMp1lehZNpCHWc0GczTphHg+7lvOAFF28v\nkNjpWdpPYS1BOukRCInRl3mlchsmVjWXihOYJtZosRksQ/CJdZXjsx7JvUwcYoyX\nLF42VxFtcJ2ynw2x8c5Uoh9C/8wQ9nATeb4DZrwH5HugQp7EDjntzi1v6GmUsUm/\nCB2mrDJXYd8AhQMpI4PNJYgY1si/QsBsLje4zBZ+kivyATD0iae+uwrmaEg5i4nF\n5XpIqJ85F7qa2nPafwx3GPCMvdCNeNME8LRmDj+wtTqi2EzBX0NLJmcnAbJ5W2fk\nO0e43hhvAgMBAAECggEADi2VAhVJRBOad9LaM/LG+NkhDwJtsr/7AEOLBPCQ+DH3\noQ1mhR8ZyEAUu5shfcY1V63d/o+2X82HAQ9KAMCZQeJB1LEOMfcEkSLZ+PtA53RO\nETpM/Cll34pLUqA2bGKtxVDyOCYhEj/fZKrK4cFUnZ23CHy2UQAmf0gZu0nduyL2\n2J363wg/X0bbxdbOaK9VRpkts0nUBmyVmuH0Opp71HDVYlTRiuFh/fLGgt26SxOD\nMlzSqifkK2KLnCIvjb0n1HJjekF7fB1CsSGdZ/JdLIwrqLD78d3MeRXSMmznViNT\nedk+BQZgLVacnPK4wRnU33+ClR59cRpUozxT4yUVkQKBgQDkRc4M7nMhg6FJwMpy\nUbucYtCYAZY6ptqLgAiGviWHewe6GvKTKSggKW2TVYfot7sIlnWoipiMOrSJ0Niu\niFPvW42sSukuAVzmhn/7fxOHQgRB9VjNozzCzRRll3ZV/VzP7ubr4bQYIK40Tj6t\nleCHPJaIhJ5itZPbvrMuajIoqQKBgQDPdL6gQzjlaMfA8tuYQ8DbHOG9xZkchINP\noISambJsvNJUcHFeBkEq5eI77don5p3FtC9BtsK8muDlN3DLaMJOJPz0xSMsfFYL\nP5WuaV8DVB8hwdyKFynorr4YEbZ+bybjLDj77XlVzY26q0aDGM/SdwWYk1lyVxTg\nG+aiOklvVwKBgCzAQpTmaku3snbzBL1EqLMP7DTgmsME0vNmNkW0IUdeJzWk8slG\n2Eb12DV6HxrQaipU1Nwlz6IuIBakitYsg8f4+t08ElqiicPnuk9jqkBqAMutfatS\nxSarbcQ83UYeVYOuIjc8GEJipcQ7Uq5VI59fkWNSHHrdfg8mY5pF12+BAoGAPsMQ\nBMYxiV4IyLvwaYFd8Cwts077gmAopcdnNqp3C2SYsUkPUyXLQ2Im7oCH9nhTlQNt\nJJFZGtw0W8RJEJDR7/hKuvaFLKk1EtQawZhJUWV6wai3wuM9H5L2GawKLPgNqL6x\nQq5Wffng/e9hNroj7YVqoP07G1dzDlYCkWPW4aMCgYEArsWRM094ik8JNsA6ofe5\nKuGDXOL+aAkNaWsjEQYVFIwnVMW8Sabzgk0/xWpY9sLmiPT9BMeHJRTyj46FlNz7\nX7II7CmImtZssZ1oE/Fa1Vncq4Y+Cvzdwysck6eB7ysXofg/9KNd3BJKebIIE2Yw\nWuwtumJRNJxA1teehcz7NCI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-hqtu6@face-celub.iam.gserviceaccount.com",
+  "client_id": "115499330265331339894",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hqtu6%40face-celub.iam.gserviceaccount.com"
+}

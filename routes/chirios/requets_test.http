@@ -10,3 +10,27 @@
 http://www.drapt.com/e_sale/index.htm?page_name=saleinfo&menu_key=8&sub_menu=0&si=%BC%AD%BF%EF%C6%AF%BA%B0%BD%C3&gu=%B0%AD%B5%BF%B1%B8&dong=&sear_date=&sigong=&gubun=&viewline=30
 
 ###
+
+
+POST https://platum.kr/wp-admin/admin-ajax.php?action=grandnews_pagination_list?offset=40&items=10
+Content-Type: application/json
+Host: platum.kr
+Connection: keep-alive
+Content-Length: 23
+Accept: */*
+Origin: https://platum.kr
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Referer: https://platum.kr/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: PHPSESSID=fonbm7ukee73f3qjv5oq9bepb1; _ga=GA1.2.1419791618.1574549794; _gid=GA1.2.1681132338.1574549794
+
+
+
+###
+
+fetch("https://platum.kr/wp-admin/admin-ajax.php?action=grandnews_pagination_list", {"credentials":"include","headers":{"accept":"*/*","accept-language":"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7","content-type":"application/x-www-form-urlencoded; charset=UTF-8","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","x-requested-with":"XMLHttpRequest"},"referrer":"https://platum.kr/","referrerPolicy":"no-referrer-when-downgrade","body":"offset=50&items=10&cat=","method":"POST","mode":"cors"});
