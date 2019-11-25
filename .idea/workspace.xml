@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d356e-36a7-43af-8453-31b4f6125dbe" name="Default" comment="fsdfaasdfasdfasdfasdfaasdasdㅁㄴㅇㅁㄴㅇasdsadsd234asdfasdfasdfasdf234234324ㄴㅇㄹㄴㅇㄹ">
+      <change afterPath="$PROJECT_DIR$/routes/chirios/0293402394_platum_venture__아웃스텐딩.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/node_modules/promise/build.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -73,17 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/temp/cellub_onesignal_thats_right_스케쥴러.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/New_celub.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -91,8 +82,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/chirios/0293402394_platum_venture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="442">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/chirios/0293402394_platum_venture__아웃스텐딩.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="23" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -176,6 +176,7 @@
         <option value="$PROJECT_DIR$/routes/temp/face-celub-firebase-adminsdk-hqtu6-3401d7b3a9.json" />
         <option value="$PROJECT_DIR$/routes/temp/cellub_onesignal_thats_right_스케쥴러.js" />
         <option value="$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js" />
+        <option value="$PROJECT_DIR$/routes/chirios/0293402394_platum_venture__아웃스텐딩.js" />
       </list>
     </option>
   </component>
@@ -243,6 +244,12 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="temp2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,7 +265,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558835789243" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.12.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/temp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/chirios" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -273,9 +280,9 @@
       <recent name="$PROJECT_DIR$/routes/temp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes/chirios" />
       <recent name="$PROJECT_DIR$/routes/temp" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/routes/chirios" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/routes" />
     </key>
@@ -895,7 +902,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="0293402394_platum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="0293402394_platum.js" working-dir="$PROJECT_DIR$/routes/chirios">
+    <configuration name="0293402394_platum_venture__아웃스텐딩.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="0293402394_platum_venture__아웃스텐딩.js" working-dir="$PROJECT_DIR$/routes/chirios">
       <method v="2" />
     </configuration>
     <configuration name="0293402394_platum_venture.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="0293402394_platum_venture.js" working-dir="$PROJECT_DIR$/routes/chirios">
@@ -944,9 +951,9 @@
       <list>
         <item itemvalue="Node.js.cellub_onesignal_thats_right_스케쥴러.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok_for_celme.js" />
+        <item itemvalue="Node.js.0293402394_platum_venture__아웃스텐딩.js" />
         <item itemvalue="Node.js.____fcm_example2323_working_ok.js" />
         <item itemvalue="Node.js.0293402394_platum_venture.js" />
-        <item itemvalue="Node.js.0293402394_platum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -1166,7 +1173,8 @@
       <workItem from="1574280845927" duration="2085000" />
       <workItem from="1574317788202" duration="775000" />
       <workItem from="1574371395273" duration="2574000" />
-      <workItem from="1574412009592" duration="17592000" />
+      <workItem from="1574412009592" duration="22271000" />
+      <workItem from="1574664633896" duration="741000" />
     </task>
     <task id="LOCAL-00095" summary="fsdfaasdfasdfasdfasdfa">
       <created>1528375537109</created>
@@ -1523,7 +1531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108174000" />
+    <option name="totallyTimeSpent" value="113594000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1538,7 +1546,7 @@
     <frame x="461" y="183" width="1769" height="1171" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28372902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2866242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1548,7 +1556,7 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30871212" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34280303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3910985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1556,7 +1564,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.41003788" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="RNConsole" order="10" weight="0.37570304" />
+      <window_info anchor="bottom" id="RNConsole" order="10" weight="0.375" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
@@ -1732,13 +1740,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/temp/dpd0001.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/youtube-dl/lib/youtube-dl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1985,13 +1986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/chirios/0293402394_platum_venture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/New_celub.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1999,7 +1993,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/New_celub.json">
+    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/promise/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/temp/face-celub-15280162f2ba.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -2013,10 +2021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok.js">
+    <entry file="file://$PROJECT_DIR$/routes/temp/New_celub.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -2027,31 +2035,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/promise/build.js">
+    <entry file="file://$PROJECT_DIR$/routes/chirios/0293402394_platum_venture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+    <entry file="file://$PROJECT_DIR$/routes/chirios/0293402394_platum_venture__아웃스텐딩.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+        <state relative-caret-position="476">
+          <caret line="28" column="23" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/temp/face-celub-15280162f2ba.json">
+    <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/temp/cellub_onesignal_thats_right_스케쥴러.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
