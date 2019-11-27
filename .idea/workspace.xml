@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0d356e-36a7-43af-8453-31b4f6125dbe" name="Default" comment="fsdfaasdfasdfasdfasdfaasdasdㅁㄴㅇㅁㄴㅇasdsadsd234asdfasdfasdfasdf234234324ㄴㅇㄹㄴㅇㄹ">
-      <change afterPath="$PROJECT_DIR$/routes/temp/test_youtube_passer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/temp/____fcm_example2323_working_ok_for_celme.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="592">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="85" column="9" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -120,7 +117,6 @@
       <find>admob</find>
       <find>youtubedl</find>
       <find>path</find>
-      <find>node</find>
       <find>bodyParser</find>
       <find>fileUpload</find>
       <find>multer</find>
@@ -135,6 +131,7 @@
       <find>last_response</find>
       <find>firebase</find>
       <find>fire</find>
+      <find>node</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -158,7 +155,6 @@
         <option value="$PROJECT_DIR$/node_modules/youtube-dl/lib/get-binary.js" />
         <option value="$PROJECT_DIR$/routes/celme_policy_privacy.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/views/celme.hbs" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -176,6 +172,7 @@
         <option value="$PROJECT_DIR$/routes/chirios/0293402394_platum_venture__아웃스텐딩.js" />
         <option value="$PROJECT_DIR$/routes/temp/test_youtube_passer.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
       </list>
     </option>
   </component>
@@ -247,6 +244,11 @@
               <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="temp2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_convinience_rest_brandnewnewnew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_convinience_rest_brandnewnewnew" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1178,7 +1180,7 @@
       <workItem from="1574738381914" duration="1564000" />
       <workItem from="1574800019606" duration="586000" />
       <workItem from="1574805709430" duration="2686000" />
-      <workItem from="1574881677951" duration="755000" />
+      <workItem from="1574881677951" duration="1571000" />
     </task>
     <task id="LOCAL-00095" summary="fsdfaasdfasdfasdfasdfa">
       <created>1528375537109</created>
@@ -1535,7 +1537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121823000" />
+    <option name="totallyTimeSpent" value="122639000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1548,8 +1550,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="461" y="183" width="1769" height="1171" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30399537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19976838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1564,7 +1567,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5066288" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29829547" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.375" />
@@ -1751,13 +1754,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/celme_policy_privacy.js" />
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2057,8 +2053,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="9" />
+        <state relative-caret-position="592">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
