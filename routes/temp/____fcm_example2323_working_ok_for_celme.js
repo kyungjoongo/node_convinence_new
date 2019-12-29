@@ -8,8 +8,6 @@ admin.initializeApp({
 });
 
 
-
-
 let message = {
     notification: {
         title: '나와 닮은 연애인을 지금 바로 찾아보세요요요ㅛㅇ요ㅛ!!!!',
@@ -20,13 +18,9 @@ let message = {
 };
 
 // Send a message to devices subscribed to the provided topic.
-admin.messaging().send(message)
-    .then((response) => {
-
-
-        // Response is a message ID string.
-        console.log('Successfully sent message:', response + "---->");
-    })
+admin.messaging().send(message).then((response) => {
+    console.log('Successfully sent message:', response + "---->");
+})
     .catch((error) => {
         console.log('Error sending message:', error);
     });

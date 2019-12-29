@@ -12,6 +12,23 @@ var ffmpeg = require('fluent-ffmpeg');
 var btc = require('better-try-catch')
 const puppeteer = require('puppeteer');
 var syncRequest = require('sync-request');
+const stream = require('youtube-audio-stream')
+const url = 'http://youtube.com/watch?v=oBB1SIg2MdI'
+const Youtube = require('youtube-stream-url');
+var youTubeParser = require('youtube-parser');
+
+router.get('/getAudio', (req, res, next) => {
+    let query = '';
+    if (req.query.q == undefined) {
+        query = 'SlPhMPnQ58k'
+    } else {
+        query = req.query.q
+    }
+    const fs = require('fs');
+    const ytdl = require('ytdl-core');
+    ytdl('http://www.youtube.com/watch?v='+ query).pipe(res);
+
+});
 
 router.get('/mp3_juice', function (req, last_response, next) {
 
@@ -62,7 +79,7 @@ router.get('/mp3_juice', function (req, last_response, next) {
             });
 
 
-            var resultsJson= $('#download_1').children().next().next().children().attr('href');
+            var resultsJson = $('#download_1').children().next().next().children().attr('href');
 
 
             return resultsJson;
@@ -108,29 +125,29 @@ router.get('/get_audio2', function (req, last_response, next) {
 
         console.log('live--->', info.formats.length)
 
-        let _result=info.formats;
+        let _result = info.formats;
 
-        let _url='';
-        _result.forEach(item=>{
+        let _url = '';
+        _result.forEach(item => {
 
-            if (item.audioBitrate=='128' && item.container=='m4a'){
+            if (item.audioBitrate == '128' && item.container == 'm4a') {
 
-                console.log('live--->',item);
+                console.log('live--->', item);
                 //console.log('live--->',item.url);
 
-                _url= item.url;
+                _url = item.url;
             }
         })
-      /*  console.log('live--->', info.formats.length);
+        /*  console.log('live--->', info.formats.length);
 
-        console.log('live--->', info.formats[17]);
+          console.log('live--->', info.formats[17]);
 
-        let videoUrl = info.formats[17].url
+          let videoUrl = info.formats[17].url
 
 
-        //console.log('live--->',videoUrl);
+          //console.log('live--->',videoUrl);
 
-        */
+          */
 
         last_response.json({
             videoUrl: _url,
