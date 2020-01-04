@@ -9,10 +9,12 @@ function getRandomInt(max) {
 
 //todo: 매5분마다 실행...
 /*var j = schedule.scheduleJob('*!/1 * * * *', function (fireDate) {
-
+    fetchAndpushFcm();
 });*/
 
 fetchAndpushFcm();
+
+
 
 function fetchAndpushFcm() {
     var cheerio = require("cheerio");
