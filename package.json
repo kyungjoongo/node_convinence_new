@@ -72,7 +72,7 @@
     "slimerjs": "^1.0.0",
     "spooky": "^0.2.5",
     "sqlite3": "^4.1.0",
-    "striptags": "^3.1.1",
+    "striptags": "^3.2.0",
     "sync-each": "^1.0.1",
     "sync-request": "^6.1.0",
     "translate": "^1.1.0",
