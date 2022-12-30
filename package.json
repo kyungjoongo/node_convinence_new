@@ -95,7 +95,7 @@
   },
   "devDependencies": {
     "express-reload": "^1.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "zombie": "^6.1.4"
   }
 }
